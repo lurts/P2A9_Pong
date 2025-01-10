@@ -7,8 +7,8 @@ class SuperPong : public Pong {
 public:
 	SuperPong() {}
 
-	void set2(Paddle* p) {
-		_paddle2 = p;
+	void set2(Paddle* p1) {
+		_paddle2 = p1;
 	};
 
 	void update();
