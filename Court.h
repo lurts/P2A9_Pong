@@ -17,7 +17,7 @@ public:
   Court(Area field);
    ~Court() = default;
 /* --Zeichne das Spielfeld. */
-  void paint(sf::RenderWindow& window);
+  virtual void paint(sf::RenderWindow& window);
 /* --Gibt Spielfeldbegrenzung zurueck. */
   Area area() const { return _field; }
 /* --Prueft, ob es eine Kollision gibt. */

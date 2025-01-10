@@ -14,11 +14,6 @@ public:
     TennisCourt(Area a):Court(a){};
 
     void paint(sf::RenderWindow& window);
-
-
-
-
-
 };
 
 #endif //PONGPONG_TENNISCOURT_H

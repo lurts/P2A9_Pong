@@ -7,7 +7,9 @@ class SuperPong : public Pong {
 public:
 	SuperPong() {}
 
-	void set2(Paddle* p) { _paddle2 = p; };
+	void set2(Paddle* p) {
+		_paddle2 = p;
+	};
 
 	void update();
 	void paint(sf::RenderWindow& window);

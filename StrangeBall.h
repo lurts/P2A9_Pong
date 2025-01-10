@@ -3,6 +3,7 @@
 
 #include "BouncingBall.h"
 
+// StrangeBall hat bei jeder Court Kollision eine chance in eine unerwartete Richtung zu fliegen
 class StrangeBall : public BouncingBall {
 public:
     StrangeBall(sf::Vector2f start, sf::Vector2f mvec, float radius)

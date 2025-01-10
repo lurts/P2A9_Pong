@@ -17,17 +17,17 @@ public:
     float radius() const
     {
         return _radius;
-    }/* --Liefert den Mittelpunkt zurück. */
+    }/* --Liefert den Mittelpunkt zurï¿½ck. */
     sf::Vector2f center() const
     {
         return _position;
-    }/* --Liefert den Bewegungsvektor zurück. */
+    }/* --Liefert den Bewegungsvektor zurï¿½ck. */
     sf::Vector2f move() const
     {
         return _move;
     }/* --Abprallen von Objekten. */
-    void bounce(const Court& court,const sf::Vector2f& point);
-    void bounce(const Paddle& paddle,const sf::Vector2f& point);
+    virtual void bounce(const Court& court,const sf::Vector2f& point);
+    virtual void bounce(const Paddle& paddle,const sf::Vector2f& point);
     /* --Zeichnen. */
     void paint(sf::RenderWindow& window);
 

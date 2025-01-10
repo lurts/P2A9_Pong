@@ -3,6 +3,7 @@
 
 #include "BouncingBall.h"
 
+// CrazyBall wird mit jeder Kollision mit dem Court schneller
 class CrazyBall : public BouncingBall {
 public:
     CrazyBall(sf::Vector2f start, sf::Vector2f mvec, float radius)

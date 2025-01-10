@@ -20,9 +20,9 @@ public:
     Pong& operator=(const Pong&) = default;
      ~Pong();
     /* --Aktualisiere das Spielfeld. */
-    void update();
+    virtual void update();
     /* --Zeichne das Spielfeld. */
-    void paint(sf::RenderWindow& window);
+    virtual void paint(sf::RenderWindow& window);
     /* --Setze Paddle etc. */
     void set(Paddle* p);
 
